@@ -1,0 +1,26 @@
+# Ignore system files
+.DS_Store
+.idea/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore environment variable files
+.env
+
+# Ignore FAISS store if not needed
+faiss_store_openai/*.pkl
+
+# Ignore logs and temp files
+*.log
+*.tmp
